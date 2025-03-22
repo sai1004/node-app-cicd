@@ -1,7 +1,6 @@
 version: '3.3'
 services:
   web:
-    build: 
-      context: .
+    image: "sai1004/node-app-cicd:latest"
     ports:
       - "6000:6000"
